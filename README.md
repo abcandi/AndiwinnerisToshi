@@ -8,31 +8,31 @@
 
 <details>
   <summary><strong>View Invitation</strong></summary>
-  <a href="https://sonali.netlify.app/"><img src="./assets/img/sonali.jpeg" /></a>
+  <a href="https://abcandi.github.io/AndiwinnerisToshi/"><img src="./assets/img/sonali.jpeg" /></a>
 </details>
 
-With the divine grace of the almighty,
-inviting you and your family to elder sister's wedding to be held on **29th November at [Ashirwad Garden](https://goo.gl/maps/5z5xX2hTYzU8VGEJ9), Ratu, Ranchi from 7:00 PM** onwards.
+Together with our parents,
+we are inviting you to our wedding on **21st May at [Parish of Our Lady of the Abandoned](https://goo.gl/maps/VCxuH5xsT9higSQLA), Parish of Our Lady of the Abandoned, Marikina City from 11:00 AM** onwards.
 
-- [Download](https://github.com/vinitshahdeo/vinitshahdeo/raw/master/docs/Sonali%20%26%20Gagan.pdf) the Invitation card
+- [Download](https://drive.google.com/file/d/1P010N8s9CQQpkofxDlfaZo56SyumGM4w/view?usp=sharing) the Invitation card
 
-- Find [venue](https://goo.gl/maps/5z5xX2hTYzU8VGEJ9) on Google map
+- Find [venue](https://goo.gl/maps/VCxuH5xsT9higSQLA) on Google map
 
-- Visit the [website](https://sonali.netlify.app/) for more details
+- Visit the [website](https://abcandi.github.io/AndiwinnerisToshi/) for more details
 
-- See the Facebook [post](https://www.facebook.com/vinit.shahdeo/posts/3521599654622390)
+- See the Facebook [post](https://www.facebook.com/andisomething)
 
-- See the [Tweet](https://twitter.com/Vinit_Shahdeo/status/1328570280705482752)
+- See the [Tweet](https://twitter.com/anditabinas)
 
 ```js
 
-const newCouple = 'Sonali & Gagan';
+const newCouple = 'Andi & Toshi';
 
-// Nov 29, 2020
-const weddingDate = new Date(2020, 11, 29);
+// May 21, 2022
+const weddingDate = new Date(2022, 05, 21);
 
-// Wedding venue: https://goo.gl/maps/5z5xX2hTYzU8VGEJ9
-const weddingVenue = new Location('Ashirwad Garden, Ranchi');
+// Wedding venue: https://goo.gl/maps/VCxuH5xsT9higSQLA
+const weddingVenue = new Location('Parish of Our Lady of the Abandoned, Marikina City');
 
 (function() {
     newCouple.willTieKnot(weddingDate);
