@@ -20,7 +20,7 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
-$(document).on('load', function(){
+$(document).on('click', function(){
     document.getElementById("my_audio").play();
     console.log('Shaadi me zaroor aana');
 });
@@ -68,7 +68,7 @@ var styles = [
 ].join(';');
 
 var styles1 = [
-    'color: #FF6C37'
+    'color: #FFDACC'
     , 'display: block'
     , 'text-shadow: 0 2px 0 rgba(0, 0, 0, 1)'
     , 'line-height: 40px'
